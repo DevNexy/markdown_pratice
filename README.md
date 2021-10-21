@@ -43,3 +43,48 @@ this is horizontal line
 ## link
 [my link](http://www.google.com)
 
+### Table
+| Syntax | Description |
+| ----------- | ----------- |
+| Header | Title | Title |
+| Paragraph | Text | Title |
+| apple | banana | Title |
+
+```c
+#include <stdio.h>
+int main(){
+    int number1, number2, sum;
+
+    printf("Enter two integers: ");
+    scanf("%d %d", &number1, &number2);
+
+    //calculating sum
+    sum = number1 + number2;
+
+    printf("%d + %d = %d", number1, number2, sum);
+    return 0;
+}
+```
+
+```javascript
+funtion func(){
+    var a = 'AAA';
+    return 0;
+}
+```
+
+```css
+.list > li{
+    position: absolute;
+    top: 40px;
+}
+```
+
+```bash
+$ vim ./~zshrc
+```
+
+```python
+s = "Python syntax highlighting"
+print s
+```
